@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 
-import textur from "./hold.png";
-
-import spottMessTex from "./hold.png";
 import spottTexture from "./hold.png";
 import man from "./trumpp.glb";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
-var meshH = [];
 class Trump extends Component {
   constructor(props) {
     super(props);
